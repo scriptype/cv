@@ -119,6 +119,12 @@ ul.plain {
     padding: 3em 5em;
 }
 
+@media (max-width: 640px) {
+    .main-container {
+        padding: 3em 5vmin;
+    }
+}
+
     @media print {
         .main-container,
         .main-container main section:last-child {
