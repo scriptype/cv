@@ -1,7 +1,7 @@
-import moment from 'moment'
-import toPlural from './to-plural'
+const moment = require('moment')
+const toPlural = require('./to-plural')
 
-export default function getDuration(date1, date2) {
+module.exports = function getDuration(date1, date2) {
   const x = new moment(date1)
   const y = new moment(date2).endOf('month')
   const duration = moment.duration(y.diff(x))

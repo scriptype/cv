@@ -13,7 +13,7 @@ const months = {
   Dec: 12
 }
 
-export default function getStandardTime(nonStandardTimeString) {
+module.exports = function getStandardTime(nonStandardTimeString) {
   const [ month, year ] = nonStandardTimeString.split(' ')
   return new Date(year, months[month], 1)
 }

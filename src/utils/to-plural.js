@@ -1,4 +1,4 @@
-export default function toPlural(value, { plural, quantity }) {
+module.exports = function toPlural(value, { plural, quantity }) {
   if (quantity === 1) {
     return `${quantity} ${value}`
   }

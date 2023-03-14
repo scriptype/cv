@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <title>CV, Mustafa Enes Ertarhanacı</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -49,7 +50,33 @@
             <section>
                 <h2>Experience</h2>
 
-                <ul class="topics" id="experience"></ul>
+                <ul class="topics" id="experience">
+                    {{#each experiences}}
+                        {{#if breakBefore}}
+                            <hr class="page-break-before" />
+                        {{/if}}
+
+                        <li>
+                            <header class="experience-header">
+                                <h3 class="experience-title">{{title}}</h3>
+                                <span class="small">{{workingTime .}}</span>
+                            </header>
+
+                            <ul class="plain experience-roles-and-technologies">
+                                {{#each roles}}
+                                    <li class="experience-role">{{this}}</li>
+                                {{/each}}
+
+                                {{#if technologiesUsed}}
+                                <li class="experience-technologies">
+                                    <strong>Technologies used:</strong>
+                                    {{commaSeparatedList technologiesUsed}}
+                                </li>
+                                {{/if}}
+                            </ul>
+                        </li>
+                    {{/each}}
+                </ul>
             </section>
 
             <hr class="page-break-before" />
@@ -237,7 +264,6 @@
             var dateString = new Date().toString().split('GMT')[0].trim()
             document.getElementById('date').innerText = dateString
         </script>
-
     </body>
 
 </html>
