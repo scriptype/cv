@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700);
+.experience-header {
+    overflow: hidden;
+}
+
+.experience-title {
+    float: left;
+}
+
+.experience-header .small {
+    float: right;
+}
+
+@supports (display: flex) {
+    .experience-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: auto;
+    }
+
+    .experience-title {
+        float: none;
+    }
+
+    .experience-header .small {
+        float: none;
+    }
+}
+
+.experience-title {
+    font-size: 1.125em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #fafafa;
+    font: 100 normal 15px/1.4 "Old Standard TT", georgia, times;
+    color: #111;
+}
+
+body.phantom {
+    font-size: 12px;
+    background: #fff;
+}
+
+a {
+    color: mediumblue;
+}
+
+a:active {
+    color: crimson;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+ul, ol, p {
+    margin-bottom: 0;
+    margin-top: .5em;
+}
+
+li:last-child, p:last-child {
+    margin-bottom: 1em;
+}
+
+.page-break-before {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    width: 0;
+    height: 0;
+    page-break-before: always;
+    break-before: always;
+}
+
+    @media print {
+        .page-break-before {
+            padding-top: 3em;
+        }
+    }
+
+ul.topics {
+    list-style: none;
+    padding: 0;
+}
+
+    ul.topics > li {
+        margin-bottom: 2em;
+    }
+
+    @media print {
+        ul.topics > li:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+
+ul.plain {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    ul.plain li {
+        margin-bottom: .5em;
+    }
+
+
+.row {
+    overflow: hidden;
+}
+
+    .row .col {
+        float: left;
+    }
+
+    .row .col-2 {
+        width: 50%;
+    }
+
+
+.small {
+    font-size: .8em;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+.main-container {
+    padding: 3em 5em;
+}
+
+    @media print {
+        .main-container,
+        .main-container main section:last-child {
+            padding-bottom: 0;
+        }
+    }
+
+    .main-container > header {
+        text-align: center;
+        padding-bottom: 3em;
+    }
+
+        .main-container > header p {
+            margin: 0;
+        }
+
+    .main-container > main section {
+        padding: 1em 0;
+    }
+
+.update {
+    text-align: right;
+    font-size: .6em;
+    padding: .5em 3rem;
+}
+

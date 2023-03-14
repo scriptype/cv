@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "webpack --watch & cd dist && http-server -p 8888 -c-1 .",
+    "start": "webpack --watch & cd docs && http-server -p 8888 -c-1 .",
     "drive-dir": "echo ~/Google\\ Drive",
-    "filename": "echo CV\\,\\ Mustafa\\ Enes\\ Ertarhanacı.pdf",
+    "filename": "echo docs/CV\\,\\ Mustafa\\ Enes\\ Ertarhanacı.pdf",
     "deploy": "npm run pdf && npm run copy",
     "pdf": "phantomjs rasterize.js http://localhost:8888?phantom \"`npm run -s filename`\" A4",
     "copy": "cp \"`npm run -s filename`\" \"`npm run -s drive-dir`\"/"

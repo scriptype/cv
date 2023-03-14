@@ -4,6 +4,9 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 module.exports = {
   mode: 'production',
+  output: {
+    path: path.resolve(__dirname, 'docs'),
+  },
   module: {
     rules: [
       {
@@ -36,10 +39,10 @@ module.exports = {
       filename: 'index.html',
       inject: true,
       files: {
-        css: [ 'dist/style.css' ],
+        css: [ 'docs/style.css' ],
         chunks: {
           head: {
-            css: [ 'dist/style.css' ]
+            css: [ 'docs/style.css' ]
           }
         }
       }
