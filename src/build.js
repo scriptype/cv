@@ -32,6 +32,9 @@ Promise.all([
   readFile(Paths.input, { encoding: 'utf-8' })
 ]).then(([data, content]) => {
   const template = Handlebars.compile(content)
-  const output = template(JSON.parse(data))
+  const output = template({
+    ...JSON.parse(data),
+    updated: new Date().toString().split('GMT')[0].trim()
+  })
   writeFile(Paths.output, output)
 })

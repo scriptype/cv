@@ -1,26 +1,28 @@
 # CV
 
+See: https://enes.in/cv
+For pdf version: https://enes.in/cv?pdf
+
 ## Setup
 
 ```sh
-$ node -v
-v6.10.2
+npm i && npm start
 ```
+
+## Generate PDF
+
+Run this in a separate shell:
 
 ```sh
-$ npm -v
-3.10.10
+npm run pdf
 ```
 
-Run:
+## Preview
 
-```sh
-npm install && npm start
-```
+html: http://localhost:8888
+pdf: http://localhost:8888?pdf
 
-An http server will start at localhost:8080.
-
-### Generate new CV and publish it into Google Drive
+### Deploy to Google Drive
 
 By default, `Google Drive` folder is expected to be in user home folder (`~`).
 However, there are npm scripts for `echo`ing path for Google Drive and name of
@@ -28,10 +30,4 @@ the output file. Change these fields if needed (Be careful with backslashes).
 
 ```sh
 npm run deploy
-```
-
-### Generate pdf, only to check how it looks
-
-```sh
-npm run pdf
 ```

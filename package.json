@@ -1,6 +1,6 @@
 {
   "name": "cv",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.html",
   "scripts": {
@@ -8,23 +8,18 @@
     "drive-dir": "echo ~/Google\\ Drive",
     "filename": "echo docs/CV\\,\\ Mustafa\\ Enes\\ Ertarhanacı.pdf",
     "deploy": "npm run pdf && npm run copy",
-    "pdf": "phantomjs rasterize.js http://localhost:8888?phantom \"`npm run -s filename`\" A4",
+    "pdf": "phantomjs rasterize.js http://localhost:8888 \"`npm run -s filename`\" A4",
     "copy": "cp \"`npm run -s filename`\" \"`npm run -s drive-dir`\"/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://scriptype@bitbucket.org/scriptype/cv.git"
-  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/scriptype/cv#readme",
+  "author": "Mustafa Enes Ertarhanacı",
+  "homepage": "https://enes.in/cv",
   "dependencies": {
+    "handlebars": "^4.7.7",
     "moment": "^2.22.2",
     "phantomjs-prebuilt": "^2.1.14"
   },
   "devDependencies": {
-    "handlebars": "^4.7.7",
     "http-server": "^14.1.1"
   }
 }

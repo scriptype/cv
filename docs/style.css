@@ -12,9 +12,10 @@ body {
     color: #111;
 }
 
-body.phantom {
-    font-size: 12px;
-    background: #fff;
+@media print {
+    body {
+        font-size: 12px;
+    }
 }
 
 a {
