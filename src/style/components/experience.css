@@ -1,0 +1,32 @@
+.experience-header {
+    overflow: hidden;
+}
+
+.experience-title {
+    float: left;
+}
+
+.experience-header .small {
+    float: right;
+}
+
+@supports (display: flex) {
+    .experience-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: auto;
+    }
+
+    .experience-title {
+        float: none;
+    }
+
+    .experience-header .small {
+        float: none;
+    }
+}
+
+.experience-title {
+    font-size: 1.125em;
+}

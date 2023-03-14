@@ -1,0 +1,38 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack --watch & cd dist && http-server -p 8888 -c-1 .",
+    "drive-dir": "echo ~/Google\\ Drive",
+    "filename": "echo CV\\,\\ Mustafa\\ Enes\\ Ertarhanacı.pdf",
+    "deploy": "npm run pdf && npm run copy",
+    "pdf": "phantomjs rasterize.js http://localhost:8888?phantom \"`npm run -s filename`\" A4",
+    "copy": "cp \"`npm run -s filename`\" \"`npm run -s drive-dir`\"/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://scriptype@bitbucket.org/scriptype/cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/scriptype/cv#readme",
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "moment": "^2.22.2",
+    "phantomjs-prebuilt": "^2.1.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "babel-loader": "^8.0.0-beta.3",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.0"
+  }
+}
