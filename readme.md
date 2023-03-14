@@ -1,7 +1,7 @@
 # CV
 
-See: https://enes.in/cv
-For pdf version: https://enes.in/cv?pdf
+- See: https://enes.in/cv
+- PDF version: https://enes.in/cv?pdf
 
 ## Setup
 
@@ -19,8 +19,8 @@ npm run pdf
 
 ## Preview
 
-html: http://localhost:8888
-pdf: http://localhost:8888?pdf
+- http://localhost:8888
+- http://localhost:8888?pdf
 
 ### Deploy to Google Drive
 
