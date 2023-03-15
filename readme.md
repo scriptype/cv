@@ -22,7 +22,7 @@ npm run pdf
 - http://localhost:8888
 - http://localhost:8888?pdf
 
-### Deploy to Google Drive
+## Deploy to Google Drive
 
 By default, `Google Drive` folder is expected to be in user home folder (`~`).
 However, there are npm scripts for `echo`ing path for Google Drive and name of
