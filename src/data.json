@@ -1,25 +1,41 @@
 {
   "experiences": [
     {
+      "title": "UX Engineer at Blok-Z",
+      "startDate": "Aug 2023",
+      "endDate": "Nov 2023",
+      "roles": [
+        "Acted as the lead engineer in UI/UX design and development processes and provided mentorship"
+      ],
+      "technologiesUsed": [
+        "Vue.js",
+        "CSS",
+        "Git"
+      ]
+    },
+    {
       "title": "UX/UI Lead Developer at Cavai",
       "startDate": "Sep 2021",
       "endDate": "Feb 2023",
       "roles": [
-        "Implementing product features to the world’s most advanced conversational creative engine, a highly dynamic frontend system.",
-        "Delivering creative & practical solutions and roadmaps, as well as visioning and implementing architectural goals."
+        "Implemented product features to the world’s most advanced conversational creative engine, a highly dynamic frontend system.",
+        "Delivered creative & practical solutions and roadmaps, as well as visioning and implementing architectural goals."
       ],
       "technologiesUsed": [
         "Vue.js",
         "Typescript",
         "Node.js",
-        "JSS (css in js)"
+        "JSS (css in js)",
+        "Git"
       ]
     },
     {
       "title": "Senior JavaScript Developer at CubiCasa",
       "startDate": "Dec 2020",
       "endDate": "Sep 2021",
-      "roles": [],
+      "roles": [
+        "Implemented new features to a web-based floorplan editor built with SVG."
+      ],
       "technologiesUsed": [
         "Snap.svg",
         "Git"
@@ -31,8 +47,7 @@
       "startDate": "Apr 2020",
       "endDate": "Oct 2020",
       "roles": [
-        "Implementation of new features and maintenance for salon dashboard",
-        "Helping to improve and standardize code quality across the codebase"
+        "Worked on new product features for the salon dashboard."
       ],
       "technologiesUsed": [
         "React",
@@ -51,9 +66,8 @@
       "startDate": "Oct 2019",
       "endDate": "Apr 2020",
       "roles": [
-        "Implemented new UI features for wolt.com.",
-        "Contributed to development of marketing tools.",
-        "Contributed to company's charity donation campaign website."
+        "Built new product features for wolt.com with a focus on delightful UX and accessibility.",
+        "Implemented new functionality for internal marketing tools dashboard."
       ],
       "technologiesUsed": [
         "React (hooks)",
@@ -72,8 +86,8 @@
       "startDate": "Jul 2018",
       "endDate": "Oct 2019",
       "roles": [
-        "Contributed to development of foodie.fi",
-        "Worked on company's admin panel product for retailers."
+        "Worked on implementing new features for foodie.fi.",
+        "Implemented the frontend of a backoffice solution for retail clients."
       ],
       "technologiesUsed": [
         "React",
@@ -92,9 +106,8 @@
       "startDate": "Feb 2018",
       "endDate": "Jul 2018",
       "roles": [
-        "Worked on a stock/inventory web application.",
-        "Actively took role in solving project-wise problems, like integration/delivery strategies.",
-        "Mentored teammates about best practices through code-reviews and face-to-face conversations."
+        "Frontend development for a stock/inventory SaaS.",
+        "Acted as a senior/lead member for feature prioritization and continuous delivery strategies, as well as providing technical mentorship to less experienced engineers."
       ],
       "technologiesUsed": [
         "Vue",
@@ -111,8 +124,8 @@
       "startDate": "May 2017",
       "endDate": "Feb 2018",
       "roles": [
-        "Worked as a Full-stack JavaScript Developer in e-commerce projects (Ounass, Nass, Mamas & Papas) for a Dubai-based client.",
-        "Worked in ReactNative mobile app development for another client, SambaPos, a stock/inventory management app for restaurants."
+        "Full-stack JavaScript Development for e-commerce projects like: Ounass.com, Mamas & Papas.",
+        "React Native mobile development for SambaPos, a stock/inventory management app for restaurants."
       ],
       "technologiesUsed": [
         "Node.js",
@@ -131,7 +144,7 @@
       "startDate": "Mar 2015",
       "endDate": "Aug 2015",
       "roles": [
-        "Development, testing, and maintenance of front-end components of a dashboard."
+        "Frontend development for the adtech SaaS platform."
       ],
       "technologiesUsed": [
         "React",
@@ -148,7 +161,8 @@
       "startDate": "Feb 2014",
       "endDate": "Jan 2017",
       "roles": [
-        "Front-end development for UK-based clients like Time, Sky and Jamie Oliver. Developed several CLI and desktop applications, using Electron and Node.js."
+        "Frontend development of backoffice applications for clients like Time, Sky and Jamie Oliver.",
+        "CLI and desktop applications development, using Electron and Node.js."
       ],
       "technologiesUsed": [
         "Node.js",
@@ -157,13 +171,13 @@
         "React",
         "Backbone",
         "jQuery",
-        "Babel",
         "Electron",
         "MongoDB",
         "Grunt",
         "Gulp",
         "Make",
         "Tape",
+        "Jasmine",
         "Travis",
         "Git"
       ]
@@ -174,7 +188,7 @@
       "startDate": "Sep 2013",
       "endDate": "Jan 2014",
       "roles": [
-        "Developed components for Ucakbiletiniz.com. Scripted automated tests using Selenium in Python."
+        "CoffeeScript/Javascript development and automated e2e testing (using webdriver in python) for Ucakbiletiniz.com."
       ],
       "technologiesUsed": [
         "CoffeeScript",
