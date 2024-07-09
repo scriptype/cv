@@ -18,7 +18,7 @@ Handlebars.registerHelper('workingTime', function() {
     Utils.getStandardTime(this.endDate)
   ).toHuman()
   if (this.endDate) {
-    return `${this.startDate} - ${this.endDate} (${duration})`
+    return `${this.startDate} - ${this.endDate}`
   }
   return `${this.startDate} - Current`
 })

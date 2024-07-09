@@ -13,7 +13,7 @@
 
             <header>
                 <h1>Mustafa Enes Ertarhanacı</h1>
-                <p>Creative Technologist and UX Engineer from Istanbul, Türkiye</p>
+                <p>Creative Technologist and Web Engineer from Istanbul, Türkiye</p>
             </header>
 
             <main>
@@ -23,13 +23,14 @@
                 <section class="col col-2">
                     <h2>Find me and my works</h2>
 
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/mustafa-enes-ertarhanac%C4%B1-565a9071">LinkedIn</a></li>
-                        <li><a href="http://codepen.io/pavlovsk">CodePen</a></li>
-                        <li><a href="https://github.com/scriptype">Github</a></li>
-                        <li><a href="https://medium.com/@mustastum">Medium</a></li>
-                        <li><a href="http://enes.in">Website</a></li>
-                    </ul>
+                    <p>
+                        <a href="http://enes.in">Website</a>,
+                        <a href="https://www.linkedin.com/in/mustafa-enes-ertarhanac%C4%B1-565a9071">LinkedIn</a>,
+                        <a href="https://medium.com/@mustastum">Medium</a>,
+                        <br>
+                        <a href="http://codepen.io/pavlovsk">CodePen</a>,
+                        <a href="https://github.com/scriptype">Github</a>
+                    </p>
                 </section>
 
                 <section class="col col-2">
@@ -42,12 +43,6 @@
             </div>
 
             <section>
-                <h2>In a nutshell</h2>
-                <p>I'm a self-educated programmer/designer with a start at 2008 (I was 14). In 2012, I've dropped off studying English Language &amp; Literature at Ankara University. In 2013, I started my first programming job as a Junior JavaScript Developer. Next paragraph contains some of the topics I feel close to my heart.</p>
-                <p>Web, accessibility, open source, computer science, design, UI/UX, generative art, creative coding, CodePen, Tumblr, brutalist websites, vim, photography, natural sciences (earth and space!), astro-photography, literature, philosophy, video games, electronic music, ergonomy.</p>
-            </section>
-
-            <section>
                 <h2>Experience</h2>
 
                 <ul class="topics" id="experience">
@@ -58,13 +53,19 @@
 
                         <li>
                             <header class="experience-header">
-                                <h3 class="experience-title">{{title}}</h3>
-                                <span class="small">{{workingTime .}}</span>
+                              <h3 class="experience-title">
+                                {{title}} at <a href="{{company.website}}" class="experience-company-link">{{company.name}}</a>
+                              </h3>
+
+                                <div class="experience-space-time">
+                                  <span class="small">{{workingTime .}}</span>
+                                  <span class="small">{{location}}</span>
+                                </div>
                             </header>
 
                             <ul class="plain experience-roles-and-technologies">
-                                {{#each roles}}
-                                    <li class="experience-role">{{this}}</li>
+                                {{#each roles as |role|}}
+                                    <li class="experience-role">{{role}}</li>
                                 {{/each}}
 
                                 {{#if technologiesUsed}}
@@ -112,7 +113,7 @@
                         <h4>Projects</h4>
                         <ul>
                             <li>
-                                <a href="https://github.com/scriptype/feed">
+                                <a href="https://enes.in/feed">
                                     Reads Feed
                                 </a>
                             </li>
@@ -122,8 +123,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/scriptype/kicss">
+                                <a href="https://enes.in/kicss">
                                     KICSS - CSS-first real-time interactions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/scriptype/writ-cms">
+                                    Writ-CMS: The timeless SSG + CMS
                                 </a>
                             </li>
                             <li>
@@ -137,13 +143,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/scriptype/Makefile-for-the-Front-End">
-                                    Makefile for the Frontend
-                                </a>
-                            </li>
-                            <li>
                                 <a href="https://github.com/scriptype/USCSS">
-                                    USCSS: My experimental CSS pre-processor
+                                    USCSS: Experimental CSS pre-processor
                                 </a>
                             </li>
                             <li>
@@ -157,14 +158,34 @@
                     <li>
                         <h4>Creative coding</h4>
                         <ul>
-                          <li>
-                                <a href="https://codepen.io/pavlovsk/pen/oNQbVrm">
-                                    Rainy Simplex Hills
-                                </a>
-                            </li>
                             <li>
                                 <a href="https://codepen.io/pavlovsk/pen/poZwXmP">
                                     Async UI flows with promises
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://codepen.io/pavlovsk/pen/rNRpaGv">
+                                    Expandable aside in a mini grid layout
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://codepen.io/pavlovsk/pen/YzppeYX">
+                                    ProgressCar with Custom CSS Properties
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://codepen.io/pavlovsk/pen/YzyYbLV">
+                                    Park Street 11 - 3D CSS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://codepen.io/pavlovsk/pen/VwYyGLv">
+                                    3D Visualization of DOM
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://codepen.io/pavlovsk/pen/Brboxj">
+                                    Color Contrast Visualisation
                                 </a>
                             </li>
                             <li>
@@ -178,13 +199,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://codepen.io/pavlovsk/pen/vbMrPW">
-                                    Pixel-Art Earth &amp; Moon
+                                <a href="https://codepen.io/pavlovsk/pen/LYvPZGr">
+                                    Turquoise Hexagon Sun
                                 </a>
                             </li>
                             <li>
-                                <a href="https://codepen.io/pavlovsk/pen/KKmKNxe">
-                                    Morning
+                                <a href="https://codepen.io/pavlovsk/pen/vbMrPW">
+                                    Pixel-Art Earth &amp; Moon
                                 </a>
                             </li>
                             <li>
@@ -193,18 +214,18 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://codepen.io/pavlovsk/pen/Brboxj">
-                                    Color Contrast Visualisation
+                                <a href="https://codepen.io/pavlovsk/pen/KKmKNxe">
+                                    Morning
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://codepen.io/pavlovsk/pen/KKYzpRm">
+                                    Realm of the Dragon King
                                 </a>
                             </li>
                             <li>
                                 <a href="https://codepen.io/pavlovsk/pen/rNYwKeo">
                                     Kodama Generator
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://codepen.io/pavlovsk/pen/VwYyGLv">
-                                    3D Visualization of DOM
                                 </a>
                             </li>
                             <li>
@@ -215,21 +236,6 @@
                             <li>
                                 <a href="https://codepen.io/pavlovsk/pen/BGKVJR">
                                     Let's!
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://codepen.io/pavlovsk/pen/NOErOa">
-                                    A Tree
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://codepen.io/pavlovsk/pen/OJymPmd">
-                                    3,000 – Tree with a thousand leaves
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://codepen.io/pavlovsk/pen/YzyYbLV">
-                                    Park Street 11 - 3D CSS
                                 </a>
                             </li>
                         </ul>

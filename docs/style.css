@@ -70,7 +70,7 @@ ul.topics {
 }
 
     ul.topics > li {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
 
     @media print {
@@ -117,12 +117,12 @@ ul.plain {
 
 
 .main-container {
-    padding: 3em 5em;
+    padding: 2em 5em;
 }
 
 @media (max-width: 640px) {
     .main-container {
-        padding: 3em 5vmin;
+        padding: 2em 5vmin;
     }
 }
 
@@ -130,6 +130,10 @@ ul.plain {
         .main-container,
         .main-container main section:last-child {
             padding-bottom: 0;
+        }
+
+        .main-container {
+            padding: 1em 5em;
         }
     }
 
@@ -143,7 +147,7 @@ ul.plain {
         }
 
     .main-container > main section {
-        padding: 1em 0;
+        padding: .3em 0;
     }
 
 .update {

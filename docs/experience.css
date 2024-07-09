@@ -1,32 +1,22 @@
-.experience-header {
-    overflow: hidden;
-}
-
 .experience-title {
     float: left;
-}
-
-.experience-header .small {
-    float: right;
-}
-
-@supports (display: flex) {
-    .experience-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        overflow: auto;
-    }
-
-    .experience-title {
-        float: none;
-    }
-
-    .experience-header .small {
-        float: none;
-    }
-}
-
-.experience-title {
     font-size: 1.125em;
+}
+
+.experience-company-link {
+    color: inherit;
+}
+
+.experience-space-time {
+    float: right;
+    text-align: right;
+    padding-left: 2em;
+}
+
+.experience-space-time span {
+    display: block;
+}
+
+.experience-roles-and-technologies {
+    clear: left;
 }

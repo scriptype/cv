@@ -1,202 +1,155 @@
 {
   "experiences": [
     {
-      "title": "UX Engineer at Blok-Z",
-      "startDate": "Aug 2023",
-      "endDate": "Nov 2023",
+      "title": "Creative Technologist",
+      "company": {
+        "name": "Fermente Mutfağım",
+        "website": "https://www.fermentemutfagim.com"
+      },
+      "startDate": "Mar 2023",
+      "location": "Istanbul, Türkiye",
       "roles": [
-        "Acted as the lead engineer in UI/UX design and development processes and provided mentorship"
-      ],
-      "technologiesUsed": [
-        "Vue.js",
-        "CSS",
-        "Git"
+        "Crafting solutions for web design & development, e-commerce and marketing needs."
       ]
     },
+
     {
-      "title": "UX/UI Lead Developer at Cavai",
+      "title": "Lead UI/UX Lead Developer",
+      "company": {
+        "name": "Cavai",
+        "website": "https://www.cavai.com"
+      },
       "startDate": "Sep 2021",
       "endDate": "Feb 2023",
+      "location": "Helsinki, Finland",
       "roles": [
-        "Implemented product features to the world’s most advanced conversational creative engine, a highly dynamic frontend system.",
-        "Delivered creative & practical solutions and roadmaps, as well as visioning and implementing architectural goals."
-      ],
-      "technologiesUsed": [
-        "Vue.js",
-        "Typescript",
-        "Node.js",
-        "JSS (css in js)",
-        "Git"
+        "Technical ownership of complex and impactful features to a Vue and TypeScript based ad rendering engine."
       ]
     },
+
     {
-      "title": "Senior JavaScript Developer at CubiCasa",
+      "title": "Senior JavaScript Developer",
+      "company": {
+        "name": "CubiCasa",
+        "website": "https://www.cubi.casa"
+      },
       "startDate": "Dec 2020",
       "endDate": "Sep 2021",
+      "location": "Helsinki, Finland",
       "roles": [
-        "Implemented new features to a web-based floorplan editor built with SVG."
-      ],
-      "technologiesUsed": [
-        "Snap.svg",
-        "Git"
+        "Development of an SVG floorplan editor app."
       ]
     },
 
     {
-      "title": "Senior Software Developer at Timma",
+      "title": "Senior Software Developer",
+      "company": {
+        "name": "Timma",
+        "website": "https://timma.fi"
+      },
       "startDate": "Apr 2020",
       "endDate": "Oct 2020",
+      "location": "Helsinki, Finland",
       "roles": [
-        "Worked on new product features for the salon dashboard."
-      ],
-      "technologiesUsed": [
-        "React",
-        "Node.js",
-        "Typescript",
-        "Github Workflows",
-        "webpack",
-        "SCSS",
-        "Bootstrap",
-        "Git"
+        "Developing an online appointment app and its backoffice for beauty salons, using React and TypeScript."
       ]
     },
 
     {
-      "title": "Front End Developer at Wolt",
+      "title": "Front End Developer",
+      "company": {
+        "name": "Wolt",
+        "website": "https://wolt.com"
+      },
       "startDate": "Oct 2019",
       "endDate": "Apr 2020",
+      "location": "Helsinki, Finland",
       "roles": [
-        "Built new product features for wolt.com with a focus on delightful UX and accessibility.",
-        "Implemented new functionality for internal marketing tools dashboard."
-      ],
-      "technologiesUsed": [
-        "React (hooks)",
-        "Typescript",
-        "Redux",
-        "Jest",
-        "webpack",
-        "SCSS",
-        "Git"
-      ],
-      "breakBefore": true
+        "Development of wolt.com and backoffice tools, focusing on a delightful and accessible UX, using React and TypeScript."
+      ]
     },
 
     {
-      "title": "Front End Developer at Digital Goodie",
+      "title": "Front End Developer",
+      "company": {
+        "name": "Digital Goodie",
+        "website": "https://foodie.fi"
+      },
       "startDate": "Jul 2018",
       "endDate": "Oct 2019",
+      "location": "Helsinki, Finland",
       "roles": [
-        "Worked on implementing new features for foodie.fi.",
-        "Implemented the frontend of a backoffice solution for retail clients."
-      ],
-      "technologiesUsed": [
-        "React",
-        "Redux",
-        "Next.js",
-        "webpack",
-        "SCSS",
-        "Ruby on Rails",
-        "Git",
-        "Kubernetes"
+        "Using React, Next.js and Rails for an e-grocery delivery platform."
       ]
     },
 
     {
-      "title": "Front End Developer at Protel",
+      "title": "Front End Developer",
+      "company": {
+        "name": "Protel",
+        "website": "https://protein.tech"
+      },
       "startDate": "Feb 2018",
       "endDate": "Jul 2018",
+      "location": "Istanbul, Türkiye",
       "roles": [
-        "Frontend development for a stock/inventory SaaS.",
-        "Acted as a senior/lead member for feature prioritization and continuous delivery strategies, as well as providing technical mentorship to less experienced engineers."
-      ],
-      "technologiesUsed": [
-        "Vue",
-        "Vuex",
-        "webpack",
-        "Pug",
-        "SCSS",
-        "Git"
+        "Development of Simpra, a Vue-based stock management SaaS."
       ]
     },
 
     {
-      "title": "Full-Stack Developer at VNGRS",
+      "title": "Full-Stack Developer",
+      "company": {
+        "name": "VNGRS",
+        "website": "https://vngrs.com"
+      },
       "startDate": "May 2017",
       "endDate": "Feb 2018",
+      "location": "Istanbul, Türkiye",
       "roles": [
-        "Full-stack JavaScript Development for e-commerce projects like: Ounass.com, Mamas & Papas.",
-        "React Native mobile development for SambaPos, a stock/inventory management app for restaurants."
-      ],
-      "technologiesUsed": [
-        "Node.js",
-        "ElasticSearch",
-        "React",
-        "ReactNative",
-        "Redux",
-        "webpack",
-        "Stylus",
-        "Git"
+        "Full-stack (React, Node.js) and ReactNative consultation for Ounass, Mamas & Papas and SambaPos."
       ]
     },
 
     {
-      "title": "Front End Developer at Adphorus",
+      "title": "Front End Developer",
+      "company": {
+        "name": "Adphorus (now Sojern)",
+        "website": "https://www.sojern.com"
+      },
       "startDate": "Mar 2015",
       "endDate": "Aug 2015",
+      "location": "Istanbul, Türkiye",
       "roles": [
-        "Frontend development for the adtech SaaS platform."
-      ],
-      "technologiesUsed": [
-        "React",
-        "Sass",
-        "Mocha",
-        "Grunt",
-        "Node.js",
-        "Git"
+        "Switching Backbone codebase of the SaaS adtech platform to React."
       ]
     },
 
     {
-      "title": "JavaScript Developer at Splash Inc.",
+      "title": "JavaScript Developer",
+      "company": {
+        "name": "Splash Inc. (now Qonqord)",
+        "website": "http://www.qonqord.com"
+      },
       "startDate": "Feb 2014",
       "endDate": "Jan 2017",
+      "location": "Istanbul, Türkiye",
       "roles": [
-        "Frontend development of backoffice applications for clients like Time, Sky and Jamie Oliver.",
-        "CLI and desktop applications development, using Electron and Node.js."
-      ],
-      "technologiesUsed": [
-        "Node.js",
-        "SASS",
-        "LESS",
-        "React",
-        "Backbone",
-        "jQuery",
-        "Electron",
-        "MongoDB",
-        "Grunt",
-        "Gulp",
-        "Make",
-        "Tape",
-        "Jasmine",
-        "Travis",
-        "Git"
+        "Web, CLI and Electron app development for Time, Sky and Jamie Oliver."
       ]
     },
 
     {
-      "title": "Junior JavaScript Developer at E-Net",
+      "title": "Junior JavaScript Developer",
+      "company": {
+        "name": "E-Net",
+        "website": "https://www.enet-tr.com"
+      },
       "startDate": "Sep 2013",
       "endDate": "Jan 2014",
+      "location": "Istanbul, Türkiye",
       "roles": [
-        "CoffeeScript/Javascript development and automated e2e testing (using webdriver in python) for Ucakbiletiniz.com."
-      ],
-      "technologiesUsed": [
-        "CoffeeScript",
-        "Backbone",
-        "jQuery",
-        "Python",
-        "Selenium",
-        "Git"
+        "Developing and testing ucakbiletiniz.com with CoffeeScript, Python, Selenium."
       ]
     }
   ]
